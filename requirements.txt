@@ -16,12 +16,9 @@ dash-html-components==0.13.4
 dash-renderer==0.16.1
 decorator==4.3.0
 docutils==0.14
-enum34==1.1.6
-et-xmlfile==1.0.1
 Flask==1.0.2
 Flask-Compress==1.4.0
 Flask-SeaSurf==0.2.2
-futures==3.2.0
 gunicorn==19.9.0
 haversine==2.0.0
 idna==2.8
@@ -35,7 +32,6 @@ jsonpatch==1.10
 jsonpointer==1.9
 jsonschema==2.6.0
 jupyter-core==4.4.0
-kiwisolver==1.0.1
 MarkupSafe==1.1.0
 matplotlib==2.2.4
 nbformat==4.4.0
