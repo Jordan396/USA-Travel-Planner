@@ -62,6 +62,8 @@ server = Flask(__name__)
 app = dash.Dash('auth', server=server, url_base_pathname='/travelplanner/')
 app.title = "USA Travel Planner"
 
+app.config.suppress_callback_exceptions = True
+
 # Scripts and css served locally for faster response time
 # app.scripts.config.serve_locally = True is used as it takes a long time to download plotly.js from CDN
 app.scripts.config.serve_locally = True
