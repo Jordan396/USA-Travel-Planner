@@ -1,9 +1,9 @@
 # usa-travel-planner
 
 [![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
-[![Project License](https://img.shields.io/github/license/jordan396/USA-Travel-Planner-WebApp.svg)](https://img.shields.io/github/license/jordan396/USA-Travel-Planner-WebApp.svg)
-[![Latest Commit](https://img.shields.io/github/last-commit/jordan396/USA-Travel-Planner-WebApp/master.svg)](https://img.shields.io/github/last-commit/jordan396/USA-Travel-Planner-WebApp/master.svg)
-[![Repo Size](https://img.shields.io/github/repo-size/jordan396/USA-Travel-Planner-WebApp.svg)](https://img.shields.io/github/repo-size/jordan396/USA-Travel-Planner-WebApp.svg)
+[![Project License](https://img.shields.io/github/license/jordan396/usa-travel-planner.svg)](https://img.shields.io/github/license/jordan396/usa-travel-planner.svg)
+[![Latest Commit](https://img.shields.io/github/last-commit/jordan396/usa-travel-planner/master.svg)](https://img.shields.io/github/last-commit/jordan396/usa-travel-planner/master.svg)
+[![Repo Size](https://img.shields.io/github/repo-size/jordan396/usa-travel-planner.svg)](https://img.shields.io/github/repo-size/jordan396/usa-travel-planner.svg)
 [![GitHub Followers](https://img.shields.io/github/followers/jordan396.svg?label=Follow)](https://img.shields.io/github/followers/jordan396.svg?label=Follow)
 
 ## Project Overview
