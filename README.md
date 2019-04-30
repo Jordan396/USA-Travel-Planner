@@ -6,18 +6,19 @@
 [![Repo Size](https://img.shields.io/github/repo-size/jordan396/usa-travel-planner.svg)](https://img.shields.io/github/repo-size/jordan396/usa-travel-planner.svg)
 [![GitHub Followers](https://img.shields.io/github/followers/jordan396.svg?label=Follow)](https://img.shields.io/github/followers/jordan396.svg?label=Follow)
 
-## Project Overview
+!["Homepage"](./img/homepage.png)
 
-<img src="img/USA-map.png" alt="USA map"/>
+Link: [https://nameless-island-45745.herokuapp.com/travelplanner/](https://nameless-island-45745.herokuapp.com/travelplanner/)
 
-Suppose you're planning a trip to San Francisco this summer. You've heard all about this amazing place - the Golden Gate Bridge, Fisherman's Wharf, Alcatraz Island - you simply can't wait to see them all! Unfortunately, you don't have enough time to visit every attraction... so, _how do you maximize the number of places to visit within a limited amount of time?_ 
+## Getting Started
 
-This web application has been designed to solve this problem. Simply tell it where you'd like to go, and you'll be sent your very own itinerary!
+**Objective:** To help users maximise the number of places they can visit in the USA, within a limited amout of time.
 
-## Problem Explanation
 If this problem sounds familiar, you've probably heard of the [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem). In this NP-Hard problem, if we were to consider calculating the length of _all possible routes_, we'd end up with a time complexity of _O(n!)_. In other words, it's going to take an extremely long time before we find the answer! 
 
 One way to overcome this issue is to use _Heuristics_, which are approximation algorithms that provide answers close to the optimal solution. Here, I've implemented the [_Greedy heuristic_](http://160592857366.free.fr/joe/ebooks/ShareData/Heuristics%20for%20the%20Traveling%20Salesman%20Problem%20By%20Christian%20Nillson.pdf), otherwise known as the _shortest links heuristic_. This works by constructing a graph based on the establishing shortest links between nodes without creating cycles prior to completion of the algorithm. The time complexity of this heuristic is _O(n<sup>2</sup>log<sub>2</sub>(n))_ which is significantly lower than _O(n!)_.
+
+---
 
 ## Application Details
 This web application relies on **Flask** as the web framework. The user interface has been designed using **Dash by Plotly**, and the list of Cities are stored in **DynamoDB**.
@@ -39,6 +40,8 @@ For each day of your stay, select the attractions you'd like to see by clicking 
 ![Step Three](./gifs/step-three.gif)
 For ease of reference, click on _Download_ to download an _Excel_ file containing the routes in a user-friendly format.
   * Excel files are stored in an **Amazon S3** bucket which is accessed using **Boto3**.
+
+---
 
 ## Installation and Deployment
 ### 1) Pre-conditions
